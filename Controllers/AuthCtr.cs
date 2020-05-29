@@ -28,13 +28,15 @@ namespace authf.Controllers
         }
 
         [HttpGet]
-        public async Task<string> AddBlog(string url = "") 
+        public async Task<string> New(string email = "") 
         {
-            if(url == "") return "false";
+            if(email == "") return "false";
+
             using (var db = new AuthContext()) {
-                db.Accounts.Add(new Account { Email = url });
+                db.Accounts.Add(new Account { Email = email });
                 await db.SaveChangesAsync();
             }
+
             return "true";
         }
 
