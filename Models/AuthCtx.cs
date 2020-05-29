@@ -17,6 +17,15 @@ namespace authf.Models
         public string Email { get; set; }
         public string Passhash { get; set; }
         public string JSON { get; set; }
+        public enum Guard {
+            UnApproved,
+            LockedOut,
+            Blocked,
+            Mod,
+            Assistant,
+            Creator,
+            Admin
+        }
     }
 
     // public class Blog

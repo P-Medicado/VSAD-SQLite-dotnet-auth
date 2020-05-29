@@ -38,13 +38,13 @@ namespace authf.Controllers
             return "true";
         }
 
-        [HttpGet]
-        public async void Clear() 
-        {
-            using (var db = new AuthContext()) {
-                db.Accounts.RemoveRange(db.Accounts.ToArray());
-                await db.SaveChangesAsync();
-            }
-        }
+        // [HttpGet]
+        // public async void Clear() 
+        // {
+        //     using (var db = new AuthContext()) {
+        //         db.Accounts.RemoveRange(db.Accounts.ToArray());
+        //         await db.SaveChangesAsync();
+        //     }
+        // }
     }
 }
