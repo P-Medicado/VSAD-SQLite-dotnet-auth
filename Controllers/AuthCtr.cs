@@ -33,7 +33,7 @@ namespace authf.Controllers
                 return db.Accounts.ToArray();
             }
         }
-
+ 
         [HttpGet]
         public IEnumerable<Account> Get() {
             using (var db = new AuthContext()) 
