@@ -30,6 +30,10 @@ namespace authf.Models
         Admin
     }
     
+    public class ApiAuth {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
     public class Blog
     {
         public int BlogId { get; set; }
