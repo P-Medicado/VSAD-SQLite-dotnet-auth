@@ -1,6 +1,8 @@
-# 🚵 SQLite Simple Auth & Roles Server 🎟
-Lightweight, fast Authentication server. A sub-server design to be served locally (or secretly), then pinged through any of your server-side / serverless services!
-
+<h1 align="center"> 🚵 SQLite Simple Auth & Roles Server 🎟 </h1>
+<p align="center">Lightweight, fast Authentication server. A sub-server design to be served locally (or secretly), then pinged through any of your server-side / serverless services!</p>
+  
+<br><br>
+  
 > Welcome to VSADS testing authentication server  
 > ---
 > This server is competing against MariSol Finance distributed 
